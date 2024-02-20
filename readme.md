@@ -43,7 +43,7 @@ If multiple games match the string exactly, this function uses the get_version()
 ## get_game()
 
 This function asks the user for the name of a game. It will continue to ask the user for a game title until a match is found in the boardgamegeek database or the user enters "Done"
-The function then either returns the unique id of the game or "Done.
+The function then either returns the unique id of the game or `"Done"`.
 
 ## create_game()
 
